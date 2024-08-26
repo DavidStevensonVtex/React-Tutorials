@@ -5,7 +5,7 @@ export default function Contact() {
         first: "David",
         last: "Stevenson",
         avatar: "https://robohash.org/you.png?size=200x200",
-        twitter: "your_handle",
+        twitter: "Twitter handle goes here",
         notes: "Some notes",
         favorite: true,
     };
