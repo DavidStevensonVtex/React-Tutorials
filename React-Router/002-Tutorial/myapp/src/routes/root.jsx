@@ -2,6 +2,7 @@ import { Outlet, Link, useLoaderData, Form } from "react-router-dom";
 import { getContacts, createContact  } from "../contacts";
 
 export async function action() {
+    console.log("root.jsx", "action called");
     const contact = await createContact();
     return { contact };
   }
