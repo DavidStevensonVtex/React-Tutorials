@@ -2,6 +2,7 @@ import { Form, useLoaderData, redirect } from "react-router-dom";
 import { updateContact } from "../contacts" ;
 
 export async function action({ request, params }) {
+    console.log("request", request, "params", params);
     const formData = await request.formData();
     console.log("formData", formData);
     const updates = Object.fromEntries(formData);
