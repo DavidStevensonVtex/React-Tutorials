@@ -7,14 +7,6 @@ export async function loader({ params }) {
 }
 export default function Contact() {
     const { contact } = useLoaderData();
-    // const contact = {
-    //     first: "David",
-    //     last: "Stevenson",
-    //     avatar: "https://robohash.org/C4R.png?set=set4&size=150x150",
-    //     twitter: "Twitter handle goes here",
-    //     notes: "Some notes",
-    //     favorite: true,
-    // };
 
     return (
         <div id="contact">
